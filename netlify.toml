@@ -1,2 +1,4 @@
-﻿[build]
-  command = "# No build command needed"
+[build]
+  command = ""
+  publish = "."
+
