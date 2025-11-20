@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>Separated App</title>
+</head>
+<body>
+<div id="app">Loading...</div>
+<script>
+async function loadData() {
+  try {
+    const res = await fetch('data.json');
+    if (!res.ok) throw new Error('Failed to fetch');
+    return await res.json();
+  } catch (e) {
+    document.getElementById('app').textContent = 'โหลดข้อมูลล้มเหลว';
+    return null;
+  }
+}
+
+async function initApp() {
+  const appData = await loadData();
+  if (!appData) return;
+  document.getElementById('app').textContent = 'Data loaded: ' + Object.keys(appData).join(', ');
+}
+
+document.addEventListener('DOMContentLoaded', initApp);
+</script>
+</body>
+</html>

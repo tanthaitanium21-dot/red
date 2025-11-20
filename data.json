@@ -1,0 +1,219 @@
+{
+  "electrical_installation_data": [
+    {
+      "category_id": "17.0",
+      "category_name": "งานเมนภายนอก",
+      "tasks": [
+        {
+          "task_id": "17.1",
+          "task_name": "ปักเสาไฟฟ้า 6.0ม.",
+          "unit_of_measure": "ต้น",
+          "labor_components": [
+            {
+              "labor_id": "L-POLE-6.0M"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-POLE-6.0M"
+            }
+          ]
+        },
+        {
+          "task_id": "17.1-B",
+          "task_name": "ปักเสาไฟฟ้า 7.0ม.",
+          "unit_of_measure": "ต้น",
+          "labor_components": [
+            {
+              "labor_id": "L-POLE-7.0M"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-POLE-7.0M"
+            }
+          ]
+        },
+        {
+          "task_id": "17.2",
+          "task_name": "ปักเสาไฟฟ้า 8.0ม.",
+          "unit_of_measure": "ต้น",
+          "labor_components": [
+            {
+              "labor_id": "L-POLE-8.0M"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-POLE-8.0M"
+            }
+          ]
+        },
+        {
+          "task_id": "17.3",
+          "task_name": "ปักเสาไฟฟ้า 9.0ม.",
+          "unit_of_measure": "ต้น",
+          "labor_components": [
+            {
+              "labor_id": "L-POLE-9.0M"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-POLE-9.0M"
+            }
+          ]
+        },
+        {
+          "task_id": "17.4-1",
+          "task_name": "ติดตั้งแร็ค 1 ชุด",
+          "unit_of_measure": "ชุด",
+          "labor_components": [
+            {
+              "labor_id": "L-RACK-INSTALL-1SET"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-RACK-1SET"
+            }
+          ]
+        },
+        {
+          "task_id": "17.4-2",
+          "task_name": "ติดตั้งแร็ค 2 ชุด",
+          "unit_of_measure": "ชุด",
+          "labor_components": [
+            {
+              "labor_id": "L-RACK-INSTALL-2SET"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-RACK-2SET"
+            }
+          ]
+        },
+        {
+          "task_id": "17.5",
+          "task_name": "เดินสายเมน (L, N)",
+          "unit_of_measure": "เมตร",
+          "labor_components": [
+            {
+              "labor_id": "L-MAIN-THW-4"
+            },
+            {
+              "labor_id": "L-MAIN-THW-10"
+            },
+            {
+              "labor_id": "L-MAIN-THW-16"
+            },
+            {
+              "labor_id": "L-MAIN-THW-25"
+            },
+            {
+              "labor_id": "L-MAIN-THW-35"
+            },
+            {
+              "labor_id": "L-MAIN-THW-50"
+            },
+            {
+              "labor_id": "L-MAIN-THW-A-4"
+            },
+            {
+              "labor_id": "L-MAIN-THW-A-10"
+            },
+            {
+              "labor_id": "L-MAIN-THW-A-16"
+            },
+            {
+              "labor_id": "L-MAIN-THW-A-25"
+            },
+            {
+              "labor_id": "L-MAIN-THW-A-35"
+            },
+            {
+              "labor_id": "L-MAIN-THW-A-50"
+            }
+          ],
+          "material_components": [
+            {
+              "material_id": "M-CABLE-THW-4"
+            },
+            {
+              "material_id": "M-CABLE-THW-10"
+            },
+            {
+              "material_id": "M-CABLE-THW-16"
+            },
+            {
+              "material_id": "M-CABLE-THW-25"
+            },
+            {
+              "material_id": "M-CABLE-THW-35"
+            },
+            {
+              "material_id": "M-CABLE-THW-50"
+            },
+            {
+              "material_id": "M-CABLE-THW-A-4"
+            },
+            {
+              "material_id": "M-CABLE-THW-A-10"
+            },
+            {
+              "material_id": "M-CABLE-THW-A-16"
+            },
+            {
+              "material_id": "M-CABLE-THW-A-25"
+            },
+            {
+              "material_id": "M-CABLE-THW-A-35"
+            },
+            {
+              "material_id": "M-CABLE-THW-A-50"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priceList": {
+    "L-POLE-6.0M": 950,
+    "L-POLE-7.0M": 1025,
+    "L-POLE-8.0M": 1100,
+    "L-POLE-9.0M": 1250,
+    "M-POLE-6.0M": 1050,
+    "M-POLE-7.0M": 1350,
+    "M-POLE-8.0M": 1680,
+    "M-POLE-9.0M": 2090,
+    "L-RACK-INSTALL-1SET": 100,
+    "L-RACK-INSTALL-2SET": 150,
+    "M-RACK-1SET": 150,
+    "M-RACK-2SET": 300,
+    "M-CABLE-THW-4": 20,
+    "M-CABLE-THW-10": 45,
+    "M-CABLE-THW-16": 75,
+    "M-CABLE-THW-25": 110,
+    "M-CABLE-THW-35": 150,
+    "M-CABLE-THW-50": 180,
+    "M-CABLE-THW-A-4": 6.5,
+    "M-CABLE-THW-A-10": 8.55,
+    "M-CABLE-THW-A-16": 11.6,
+    "M-CABLE-THW-A-25": 17.11,
+    "M-CABLE-THW-A-35": 22.11,
+    "M-CABLE-THW-A-50": 29.8,
+    "L-MAIN-THW-4": 15,
+    "L-MAIN-THW-10": 18,
+    "L-MAIN-THW-16": 20,
+    "L-MAIN-THW-25": 22,
+    "L-MAIN-THW-35": 25,
+    "L-MAIN-THW-50": 28,
+    "L-MAIN-THW-A-4": 15,
+    "L-MAIN-THW-A-10": 18,
+    "L-MAIN-THW-A-16": 18,
+    "L-MAIN-THW-A-25": 20,
+    "L-MAIN-THW-A-35": 22,
+    "L-MAIN-THW-A-50": 25
+  }
+}
