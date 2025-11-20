@@ -1,12 +1,17 @@
-
 export async function loadAppData() {
     try {
-        const res = await fetch("https://raw.githubusercontent.com/tanthaitanium21-dot/red/refs/heads/main/data.json");
-        if (!res.ok) throw new Error("Failed to fetch JSON");
-        return await res.json();
-    } catch(e){
-        console.error(e);
-        alert("โหลดข้อมูลไม่ได้");
+        const response = await fetch('./data.json');
+        if (!response.ok) throw new Error("Cannot load data.json");
+
+        const data = await response.json();
+        console.log("DATA LOADED:", data);
+
+        return data;
+
+    } catch (err) {
+        console.error("ERROR loading data.json:", err);
+        document.getElementById("app").innerHTML =
+            "<h3 style='color:red'>โหลดข้อมูลไม่สำเร็จ</h3>";
         return null;
     }
 }
