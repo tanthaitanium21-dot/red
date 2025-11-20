@@ -1,6 +1,6 @@
 export async function loadAppData() {
     try {
-        const response = await fetch('./data.json');
+        const response = await fetch('https://tanthaitanium21-dot.github.io/red/data.json');
         if (!response.ok) throw new Error("Cannot load data.json");
 
         const data = await response.json();
