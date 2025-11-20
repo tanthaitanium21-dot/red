@@ -1943,4 +1943,5 @@ document.addEventListener('input', (e) => {
 
     updateRealtimeTotal();
 });
+window.initApp = initApp;
 
